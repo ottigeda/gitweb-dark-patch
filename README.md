@@ -1,3 +1,5 @@
+fork from https://git.tinfoil-hat.net/tinfoil-hat/gitweb-dark-patch, commit id 93a3f6766a
+
 # README
 
 A modified gitweb.css with dak theme and Support for displaying README.md and LICENSE files.
