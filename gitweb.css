@@ -38,14 +38,15 @@
   outline-color: var(--darkreader-inline-outline) !important;
 }
 html {
-    background-color: #040506 !important;
+    background-color: #333333 !important;
 }
 html, body, input, textarea, select, button {
-    background-color: #040506;
+    background-color: #000000;
 }
 html, body, input, textarea, select, button {
     border-color: #4f4f4f;
     color: #fcfbf9;
+    background-color: #333333;
 }
 a {
     color: #558dcf;
@@ -230,6 +231,7 @@ a.list {
 
 a.subject, a.name {
         font-weight: bold;
+        color: #FCFBF9;
 }
 
 table.tags a.subject {
@@ -363,7 +365,7 @@ td.category {
 }
 
 table.diff_tree span.file_status.new {
-        color: #008000;
+        color: #00FF00;
 }
 
 table.diff_tree span.file_status.deleted {
@@ -466,7 +468,7 @@ div.diff.extended_header .info {
 }
 
 div.diff.extended_header {
-        background-color: #000000;
+        background-color: #333333;
         padding: 2px 0px 2px 0px;
 }
 
@@ -484,33 +486,39 @@ div.diff a.hash:hover {
 
 div.diff.to_file a.path,
 div.diff.to_file {
-        color: #007000;
+        color: #BBBBBB;
+        background-color: #333333;
 }
 
 div.diff.add {
-        color: #008800;
+        color: #00FF00;
+        background-color: #333333;
 }
 
 div.diff.add span.marked {
-        background-color: #aaffaa;
+        background-color: #333333;
 }
 
 div.diff.from_file a.path,
 div.diff.from_file {
-        color: #aa0000;
+        color: #BBBBBB;
+	background-color: #333333;
 }
 
 div.diff.rem {
-        color: #cc0000;
+        color: #E20000;
+        background-color: #333333;
 }
 
 div.diff.rem span.marked {
-        background-color: #916c6c;
+	color: #E20000;
+        background-color: #333333;
 }
 
 div.diff.chunk_header a,
 div.diff.chunk_header {
-        color: #990099;
+        color: #7A9A97;
+	background-color: #333333;
 }
 
 div.diff.chunk_header {
@@ -520,11 +528,11 @@ div.diff.chunk_header {
 }
 
 div.diff.chunk_header span.chunk_info {
-        background-color: #000000;
+        background-color: #333333;
 }
 
 div.diff.chunk_header span.section {
-        color: #aa22aa;
+        color: #7A9A97;
 }
 
 div.diff.incomplete {
@@ -629,6 +637,7 @@ span.refs span {
         font-size: 70%;
         font-weight: normal;
         border: 1px solid;
+        color: #000000;
         background-color: #ffaaff;
         border-color: #ffccff #ff00ee #ff00ee #ffccff;
 }
@@ -657,7 +666,7 @@ span.refs span.tag {
 }
 
 span.refs span.head {
-        background-color: #146114;
+        background-color: #14FF14;
         border-color: #ccffcc #00cc33 #00cc33 #ccffcc;
 }
 
